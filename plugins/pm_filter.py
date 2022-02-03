@@ -409,7 +409,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐀𝐌 ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇꜱ™', url='https://t.me/OTTUPDATES_AD'),
             InlineKeyboardButton('𝐀𝐌 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
         ], [
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('ℹ️ 𝐇ᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('𝐌ᴏʀᴇ 𝐆ʀᴏᴜᴘꜱ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -421,14 +421,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
+            InlineKeyboardButton('𝐌ᴀɴᴜᴀʟ 𝐅ɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝐀ᴜᴛᴏ 𝐅ɪʟᴛᴇʀ', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
+            InlineKeyboardButton('𝐂ᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
+            InlineKeyboardButton('𝐄xᴛʀᴀ 𝐌ᴏᴅꜱ', callback_data='extra')
         ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔮 Status', callback_data='stats')
+            InlineKeyboardButton('🏠 𝐇ᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🔮 𝐒ᴛᴀᴛᴜꜱ', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -441,8 +441,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐀𝐌 ꜱᴇʀɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/AdhologamSeries'),
             InlineKeyboardButton('𝐀𝐌 ꜱᴇʀɪᴇꜱ ᴏꜰꜰɪᴄɪᴀʟ™', url='https://t.me/ADHOLOGAM_SERIES')
         ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('🏠 𝐇ᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🔐 𝐂ʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
