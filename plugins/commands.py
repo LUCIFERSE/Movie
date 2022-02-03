@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('𝐀𝐌 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ℹ️ 𝐇ᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -47,8 +47,8 @@ async def start(client, message):
             InlineKeyboardButton('𝐀𝐌 ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇꜱ™', url='https://t.me/OTTUPDATES_AD'),
             InlineKeyboardButton('𝐀𝐌 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('ℹ️ 𝐇ᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('😊 𝐀ʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -90,8 +90,8 @@ async def start(client, message):
             InlineKeyboardButton('𝐀𝐌 ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇꜱ™', url='https://t.me/OTTUPDATES_AD'),
             InlineKeyboardButton('𝐀𝐌 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('ℹ️ 𝐇ᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('😊 𝐀ʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
