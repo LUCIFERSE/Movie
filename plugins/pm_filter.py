@@ -436,10 +436,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "about":
+    elif query.data == "𝐌ᴏʀᴇ 𝐆ʀᴏᴜᴘꜱ":
         buttons = [[
             InlineKeyboardButton('𝐀𝐌 ꜱᴇʀɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/AdhologamSeries'),
-            InlineKeyboardButton('𝐀𝐌 ꜱᴇʀɪᴇꜱ', url='https://t.me/ADHOLOGAM_SERIES')
+            InlineKeyboardButton('𝐀𝐌 ꜱᴇʀɪᴇꜱ ᴏꜰꜰɪᴄɪᴀʟ™', url='https://t.me/ADHOLOGAM_SERIES')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
