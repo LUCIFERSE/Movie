@@ -438,8 +438,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('𝐀𝐌 Cɪɴᴇᴍᴀꜱ™ᴏꜰꜰɪᴄɪᴀʟ', url='https://t.me/adhologam_official'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
+            InlineKeyboardButton('𝐀𝐌 ꜱᴇʀɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/AdhologamSeries'),
+            InlineKeyboardButton('𝐀𝐌 ꜱᴇʀɪᴇꜱ', url='https://t.me/ADHOLOGAM_SERIES')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
