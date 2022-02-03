@@ -406,7 +406,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝐀𝐌 Cɪɴᴇᴍᴀꜱ™ᴏꜰꜰɪᴄɪᴀʟ', url=f'https://t.me/adhologam_official')
         ], [
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('𝐀𝐌 ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇꜱ™', url='https://t.me/OTTUPDATES_AD'),
             InlineKeyboardButton('𝐀𝐌 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
