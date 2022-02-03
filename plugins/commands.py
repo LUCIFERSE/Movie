@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝐀𝐌 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
+                InlineKeyboardButton('AM Movies Group', url='https://t.me/adhologammovies_group')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('𝐀𝐌 Cɪɴᴇᴍᴀꜱ™ᴏꜰꜰɪᴄɪᴀʟ', url=f'https://t.me/adhologam_official')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝐀𝐌 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
+            InlineKeyboardButton('AM Movies Group', url='https://t.me/adhologammovies_group')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -88,7 +88,7 @@ async def start(client, message):
             InlineKeyboardButton('𝐀𝐌 Cɪɴᴇᴍᴀꜱ™ᴏꜰꜰɪᴄɪᴀʟ', url=f'https://t.me/adhologam_official')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝐀𝐌 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
+            InlineKeyboardButton('AM Movies Group', url='https://t.me/adhologammovies_group')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
